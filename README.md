@@ -54,7 +54,11 @@ Type: GET
 Description: Returns a list of dummy blog posts
 ---
 ## Screenshots
+# For Retriving Single Data
 ![image](https://github.com/user-attachments/assets/c2c68789-1b2e-4a21-b1fb-6dd00057fc4d)
+# For Retriving Multiple Data
+![image](https://github.com/user-attachments/assets/d9084e49-7023-42d0-8c0c-c3bf24c3a678)
+
 
 ---
 
