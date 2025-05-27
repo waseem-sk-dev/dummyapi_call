@@ -1,27 +1,71 @@
-# DummyapiCall
+---
+## Angular Dummy API Call
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.16.
+This project demonstrates a simple Angular application that performs a **dummy API call** using Angular’s `HttpClientModule`. It's designed as a beginner-friendly example to show how to fetch data from an external REST API and display it in a component.
 
-## Development server
+##  Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Angular 16+ setup
+- Uses `HttpClient` for API integration
+- Dummy GET request to [JSONPlaceholder](https://jsonplaceholder.typicode.com/posts)
+- Data display using `*ngFor`
+- Clean folder structure for easy learning
 
-## Code scaffolding
+---
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+##  Project Structure
+```
+src/
+├── app/
+│ ├── app.component.ts
+│ ├── app.component.html
+│ ├── app.service.ts
+│ └── app.module.ts
+├── assets/
+└── index.html
+```
+---
 
-## Build
+##  Getting Started
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Prerequisites
+- Node.js and npm installed
+- Angular CLI installed (`npm install -g @angular/cli`)
+---
+### Installation
+```bash
+git clone https://github.com/waseem-sk-dev/dummyapi_call.git
+cd dummyapi_call
+npm install
+```
+---
+## Run the Application
+```
+ng serve
+```
+---
+Navigate to http://localhost:4200/ to view the app.
+---
+## API Used
+URL: https://jsonplaceholder.typicode.com/posts
 
-## Running unit tests
+Type: GET
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Description: Returns a list of dummy blog posts
+---
+## Screenshots
+![image](https://github.com/user-attachments/assets/c2c68789-1b2e-4a21-b1fb-6dd00057fc4d)
 
-## Running end-to-end tests
+---
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Contributing
+Contributions are welcome! Feel free to fork the repository and submit a pull request.
+---
+## License
+This project is licensed under the MIT License.
+---
+## Contact
+Created by Waseem SK – feel free to reach out!
+---
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Let me know if you’d like to include [API error handling](f), [pagination](f), or [UI styling tips](f) to enhance your project.
