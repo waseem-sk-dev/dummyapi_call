@@ -58,18 +58,13 @@ Description: Returns a list of dummy blog posts
 ![image](https://github.com/user-attachments/assets/c2c68789-1b2e-4a21-b1fb-6dd00057fc4d)
 # For Retriving Multiple Data
 ![image](https://github.com/user-attachments/assets/d9084e49-7023-42d0-8c0c-c3bf24c3a678)
-
-
 ---
-
 ## Contributing
 Contributions are welcome! Feel free to fork the repository and submit a pull request.
----
+
 ## License
 This project is licensed under the MIT License.
----
+
 ## Contact
 Created by Waseem SK – feel free to reach out!
----
-
 Let me know if you’d like to include [API error handling](f), [pagination](f), or [UI styling tips](f) to enhance your project.
